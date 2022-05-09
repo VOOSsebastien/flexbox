@@ -1,0 +1,67 @@
+body{
+    flex-direction: row wrap;
+
+    border: 15px ridge rgb(87, 86, 86);
+    width: 800px;
+    height: 900px;
+    margin:auto;
+    margin-top:75px;
+    display:flex;
+    flex-wrap: wrap;
+    
+
+}
+div{
+    display:flex;
+    background-color: rgb(192, 190, 190);
+    margin:auto;
+    border:1px dashed black;
+    align-items: flex-start;
+    /*
+    margin:3px 3px 3px 3px;
+    */
+    width:97px;
+    height: 110px;
+}
+
+/*
+-------------------------------------------------------
+hoover
+---------------------------------------------------------------------------------------
+*/
+.tile:hover{
+    opacity: 0.0;
+    background: url(question.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*----------------------------------------------------
+--------------------
+Decoration
+--------------
+--------------*/
+.numero1{
+    width: 96px;
+    height: 109px;
+}
+.numero2{
+    width: 96px;
+    height: 109px;
+}
+.bomb{
+    width: 96px;
+    height: 109px;
+}
+.numero3{
+     width: 96px;
+    height: 109px;
+}
+.tile{
+    width: 96px;
+    height: 109px;
+}
+
